@@ -30,7 +30,7 @@ public class Primes {
         }
 
         double p = ((double)num/N*100);
-        System.out.println("There are " + num + " primes between 2 and " + N + " (" + (int)p + "% are primes)");
+        System.out.println("There are " + num + " Primes between 2 and " + N + " (" + (int)p + "% are primes)");
 
         
 }
