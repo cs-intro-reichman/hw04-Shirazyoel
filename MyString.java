@@ -50,12 +50,12 @@ public class MyString {
          }
          String lower1 = lowerCase(str1);
          String lower2 = lowerCase(str2);
-         for (int i = 0; i <= str1.length() - str2.length(); i++){
+         for (int i = 0; i <= lower1.length() - lower2.length(); i++){
             int m = 0;
-           while (m < str2.length() && lower1.charAt(i + m) == lower2.charAt(m)) {
+           while (m < lower2.length() && lower1.charAt(i + m) == lower2.charAt(m)) {
             m++;
            }
-           if (m == str2.length()) {
+           if (m == lower2.length()) {
              return true;
            }
         }
