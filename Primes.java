@@ -4,7 +4,7 @@ public class Primes {
        boolean [] arr = new boolean[N + 1];
        arr = MakeAllTrue(arr);
        int i = 2;
-       System.out.println("prime numbers up to " +   N  + ":" );
+       System.out.println("Prime numbers up to " +   N  + ":" );
 
        while (i < arr.length) {
         int m = i + 1;
@@ -30,7 +30,7 @@ public class Primes {
         }
 
         double p = ((double)num/N*100);
-        System.out.println("There are " + num + " Primes between 2 and " + N + " (" + (int)p + "% are primes)");
+        System.out.println("There are " + num + " primes between 2 and " + N + " (" + (int)p + "% are primes)");
 
         
 }
