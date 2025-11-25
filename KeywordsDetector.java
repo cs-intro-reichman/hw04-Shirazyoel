@@ -26,7 +26,7 @@ public class KeywordsDetector {
         for (int j = 0; j < keywords.length; j++) {
             String keyword = keywords [j];
          if (haskey(sentence, keyword)) {
-             System.err.println(sentence);
+             System.out.println(sentence);
              break;
          }
         }
