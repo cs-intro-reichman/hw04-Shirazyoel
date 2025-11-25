@@ -4,7 +4,7 @@ public class Primes {
        boolean [] arr = new boolean[N + 1];
        arr = MakeAllTrue(arr);
        int i = 2;
-       System.err.println("prime numbers up to " +   N  + ":" );
+       System.out.println("prime numbers up to " +   N  + ":" );
 
        while (i < arr.length) {
         int m = i + 1;
