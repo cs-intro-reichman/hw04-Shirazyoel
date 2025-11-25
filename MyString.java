@@ -48,21 +48,21 @@ public class MyString {
          if (str2.length() > str1.length()){
           return false;
          }
-         String lower1 = lowerCase(str1);
-         String lower2 = lowerCase(str2);
-         for (int i = 0; i <= lower1.length() - lower2.length(); i++){
+         for (int i = 0; i <= str1.length() - str2.length(); i++){
             int m = 0;
-           while (m < lower2.length() && lower1.charAt(i + m) == lower2.charAt(m)) {
+           while (m < str2.length() && str1.charAt(i + m) == str2.charAt(m)) {
             m++;
            }
-           if (m == lower2.length()) {
+           if (m == str2.length()) {
              return true;
            }
         }
            return false;
            
          } 
-        }
+
+
+}
 
 
          
